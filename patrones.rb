@@ -113,5 +113,3 @@ def navidad(n)
         puts line
     end
 end
-
-navidad(n)
