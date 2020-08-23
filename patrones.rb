@@ -101,7 +101,7 @@ def navidad(n)
         end
         space_num = n - 3
         line = " " * space_num + "*"
-        for i in 0...(n - 4)
+        for i in 0...2
             puts line
         end
         char_num = n - 1
@@ -113,3 +113,5 @@ def navidad(n)
         puts line
     end
 end
+
+navidad(n)
